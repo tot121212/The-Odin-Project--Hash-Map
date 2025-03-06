@@ -1,5 +1,6 @@
 class Node{
     constructor(key, value){
+        if (key === undefined || value === undefined) throw new Error("Node must have both key and value");
         this.key = key;
         this.value = value;
         this.nextNode = null;
@@ -13,13 +14,13 @@ export class LinkedList{
         this.size = 0;
     }
     append(key, value){
+        let newNode = new Node(key, value);
         switch (this.getSize()) {
             case 0:
-                this.head = new Node(key, value);
-                this.tail = this.head;
+                this.head = newNode;
+                this.tail = newNode;
                 break;
             default:
-                let newNode = new Node(key, value);
                 this.tail.nextNode = newNode;
                 this.tail = newNode;
                 break;
@@ -27,14 +28,14 @@ export class LinkedList{
         this.setSize(this.getSize()+1);
     }
     prepend(key, value){
+        let newNode = new Node(key, value);
         switch (this.getSize()) {
             case 0:
-                this.head = new Node(key, value);
-                this.tail = this.head;
+                this.head = newNode;
+                this.tail = newNode;
                 break;
             default:
                 let oldHead = this.head;
-                let newNode = new Node(key, value);
                 newNode.nextNode = oldHead;
                 this.head = newNode;
                 break;
@@ -69,7 +70,7 @@ export class LinkedList{
         let size = this.getSize();
         switch (size) {
             case 0:
-                break;
+                return null;
             case 1:
                 popped = this.head;
                 this.head = null;

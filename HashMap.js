@@ -7,7 +7,6 @@ export class HashMap {
         this.size = 0;
         this.rehash();
     }
-
     hash(key) {
         if (typeof key !== "string") return;
         let hashCode = 0;
@@ -19,8 +18,8 @@ export class HashMap {
         }
         return hashCode;
     }
-
     rehash(){
+        console.log("Rehashing buckets");
         const oldBuckets = this.buckets;
         this.buckets = null;
         this.buckets = new Array(this.capacity).fill(null).map(() => new LinkedList());
@@ -32,29 +31,43 @@ export class HashMap {
                 this.set(poppedNode.key, poppedNode.value);
             }
         }
-        console.log("Rehashed Buckets:",this.buckets);
+        console.log("Rehashed Buckets:\n",this.buckets);
     }
-    
     check(){
-        if (this.size > this.capacity * this.loadFactor){
-            this.capacity = Math.ceil(this.capacity * 2);
+        //console.log("Size of HashMap:", this.size);
+        //console.log("Capacity * Load Factor:",this.capacity * this.loadFactor);
+        if (this.size >= this.capacity * this.loadFactor){
+            this.capacity *= 2;
             this.rehash();
+            console.log("Rehash complete, capacity is now:",this.capacity);
         }
     }
-
     set(key, value){
         if (typeof key !== "string") return;
         const index = this.hash(key);
-        console.log("Index for:", key, "is:", index);
+        //console.log("Index for:", key, "is:", index);
         if (index < 0 || index >= this.capacity) {
             throw new Error("Trying to access index out of bounds");
         }
         const bucket = this.buckets[index];
         if (bucket.size === 0) this.size += 1; // if we are putting the first value into a bucket essentially
-        bucket.append(value);
+        bucket.append(key, value);
         this.check();
     }
     get(key){
-        
+        if (typeof key !== "string") return;
+        const index = this.hash(key);
+        if (index < 0 || index >= this.capacity) {
+            throw new Error("Trying to access index out of bounds");
+        }
+        const bucket = this.buckets[index];
+        let node = bucket.head;
+        if (bucket.size === 0) return;
+        // search all nodes in bucket for key
+        while (node){
+            if (node[key] && node[key] === key) return node.value;
+            node = node.nextNode;
+        }
+        return null;
     }
 }
