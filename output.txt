@@ -1,177 +1,265 @@
 [
-  "Capacity: 8",
-  "Amt of Buckets: 4",
-  "Get: 123",
-  "Get: null",
-  "Has: true",
-  "Has: false",
-  "Remove: true",
-  "Remove: false",
-  "Length: 4",
-  "Buckets:",
-  [
-    {
-      "head": {
-        "key": "fDTwSFWKPBaW",
-        "value": "2sp#785mhWfm",
-        "nextNode": {
-          "key": "Ic0jy5viYf2r",
-          "value": "MOZFOY9j1pjX",
+  {
+    "loadFactor": 0.75,
+    "capacity": 32,
+    "size": 12,
+    "buckets": [
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": {
+          "key": "moon",
+          "value": "silver",
           "nextNode": null
-        }
-      },
-      "tail": {
-        "key": "Ic0jy5viYf2r",
-        "value": "MOZFOY9j1pjX",
-        "nextNode": null
-      },
-      "size": 2
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": {
-        "key": "MyUsername",
-        "value": "Hello",
-        "nextNode": {
-          "key": "Example",
-          "value": "123",
+        },
+        "tail": {
+          "key": "moon",
+          "value": "silver",
           "nextNode": null
-        }
+        },
+        "size": 1
       },
-      "tail": {
-        "key": "Example",
-        "value": "123",
-        "nextNode": null
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
       },
-      "size": 2
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": {
-        "key": "rSE0Y1j0vpQz",
-        "value": "$xhvWWHESVKS",
-        "nextNode": null
+      {
+        "head": {
+          "key": "carrot",
+          "value": "orange",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "carrot",
+          "value": "orange",
+          "nextNode": null
+        },
+        "size": 1
       },
-      "tail": {
-        "key": "rSE0Y1j0vpQz",
-        "value": "$xhvWWHESVKS",
-        "nextNode": null
+      {
+        "head": {
+          "key": "frog",
+          "value": "green",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "frog",
+          "value": "green",
+          "nextNode": null
+        },
+        "size": 1
       },
-      "size": 1
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": {
-        "key": "UIGyUp#1qngb",
-        "value": "T7jx5odAX35r",
-        "nextNode": null
+      {
+        "head": {
+          "key": "banana",
+          "value": "yellow",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "banana",
+          "value": "yellow",
+          "nextNode": null
+        },
+        "size": 1
       },
-      "tail": {
-        "key": "UIGyUp#1qngb",
-        "value": "T7jx5odAX35r",
-        "nextNode": null
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
       },
-      "size": 1
-    }
-  ],
-  "Cleared",
-  "Length: 0",
-  "Keys:",
-  [
-    "Example2",
-    "Example"
-  ],
-  "Values:",
-  [
-    "1234",
-    "123"
-  ],
-  "Entries:",
-  [
-    [
-      "Example2",
-      "1234"
-    ],
-    [
-      "Example",
-      "123"
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": {
+          "key": "grape",
+          "value": "purple",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "grape",
+          "value": "purple",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": {
+          "key": "ice cream",
+          "value": "white",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "ice cream",
+          "value": "white",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": {
+          "key": "jacket",
+          "value": "blue",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "jacket",
+          "value": "blue",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": {
+          "key": "kite",
+          "value": "674w7wh9",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "kite",
+          "value": "674w7wh9",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": {
+          "key": "elephant",
+          "value": "gray",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "elephant",
+          "value": "gray",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": {
+          "key": "apple",
+          "value": "red",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "apple",
+          "value": "red",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": {
+          "key": "hat",
+          "value": "black",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "hat",
+          "value": "black",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": {
+          "key": "dog",
+          "value": "brown",
+          "nextNode": null
+        },
+        "tail": {
+          "key": "dog",
+          "value": "brown",
+          "nextNode": null
+        },
+        "size": 1
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      },
+      {
+        "head": null,
+        "tail": null,
+        "size": 0
+      }
     ]
-  ],
-  "Length: 2",
-  "Buckets:",
-  [
-    {
-      "head": {
-        "key": "Example2",
-        "value": "1234",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "Example2",
-        "value": "1234",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": {
-        "key": "Example",
-        "value": "123",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "Example",
-        "value": "123",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    }
-  ]
+  }
 ]

@@ -1,7 +1,7 @@
 import { LinkedList } from "./LinkedList.js";
 
 export class HashMap {
-    constructor(loadFactor = 0.75, capacity = 4) {
+    constructor(loadFactor = 0.75, capacity = 16) {
         this.loadFactor = loadFactor;
         this.capacity = capacity;
         this.size = 0;
@@ -21,14 +21,15 @@ export class HashMap {
     rehash(){
         console.log("Rehashing buckets");
         const oldBuckets = this.buckets;
-        this.buckets = null;
         this.buckets = new Array(this.capacity).fill(null).map(() => new LinkedList());
         this.size = 0;
+        
         if (!oldBuckets) return;
-        for (let bucket of oldBuckets){
-            while (bucket.size > 0){
-                const poppedNode = bucket.pop();
-                this.set(poppedNode.key, poppedNode.value);
+        for (let bucket of oldBuckets) {
+            let node = bucket.head;
+            while (node) {
+                this.set(node.key, node.value);
+                node = node.nextNode;
             }
         }
         console.log("Rehashed Buckets:\n",this.buckets);
@@ -54,50 +55,34 @@ export class HashMap {
     set(key, value){
         const bucket = this.validateKey(key);
         if (bucket === null) return;
-        if (bucket.size === 0) this.size += 1; // if we are putting the first value into a bucket essentially
-        bucket.append(key, value);
+        // if key exists already, overwrite value instead of appending
+        if (this.has(key)){
+            bucket.findNode(key).value = value;
+        } else {
+            bucket.append(key, value);
+            this.size += 1;
+        }
         this.check();
     }
     get(key){
         const bucket = this.validateKey(key);
         if (bucket === null) return null;
-        let node = bucket.head;
-        if (bucket.size === 0) return null;
-        while (node){
-            if (node.key === key) return node.value;
-            node = node.nextNode;
-        }
-        return null;
+        return bucket.findNode(key).value ?? null;
     }
     has(key){
         const bucket = this.validateKey(key);
         if (bucket === null) return false;
-        let node = bucket.head;
-        if (bucket.size === 0) return false;
-        while (node){
-            if (node.key === key) return true;
-            node = node.nextNode;
-        }
-        return false;
+        return bucket.findNode(key) ? true : false;
     }
     remove(key){
         const bucket = this.validateKey(key);
         if (bucket === null) return false;
-        let node = bucket.head;
         if (bucket.size === 0) return false;
-        let prevNode = null;
-        while (node){
-            if (node.key === key) {
-                const nextNode = node.nextNode;
-                if (!nextNode && bucket.pop()) return true; // if this is already the last node
-                const removedNode = bucket.removeAt(bucket.find(node.value));
-                if (!removedNode) return false; // if we didnt remove a node
-                return true;
-            };
-            prevNode = node;
-            node = node.nextNode;
-        }
-        return false;
+        const node = bucket.findNode(key);
+        const removedNode = bucket.removeAt(bucket.find(node.value));
+        if (!removedNode) return false; // if we didnt remove a node
+        this.size -= 1;
+        return true;
     }
     length(){
         return this.size;

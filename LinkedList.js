@@ -104,6 +104,14 @@ export class LinkedList{
         }
         return null;
     }
+    findNode(key){
+        let node = this.head;
+        while(node){
+            if (node.key === key) return node;
+            node=node.nextNode;
+        }
+        return null;
+    }
     toString(){
         let string = "";
         let node = this.head;
