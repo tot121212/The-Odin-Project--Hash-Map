@@ -135,7 +135,7 @@ export class LinkedList{
     }
     removeAt(index) {
         if (index < 0 || index >= this.getSize()) return null; // Out of bounds check
-    
+        if (!this.head) return null;
         let removedNode;
         
         if (index === 0) { // Removing the head

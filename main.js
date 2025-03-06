@@ -13,7 +13,7 @@ function getRandomString(length) {
     }
     return result;
 }
-for (let i = 0; i < 100; i++){
+for (let i = 0; i < 24; i++){
     hashMap.set(getRandomString(12), getRandomString(12));
 }
 
@@ -24,7 +24,12 @@ data.push("Amt of Buckets: " + hashMap.size);
 hashMap.set("Example", "123");
 hashMap.set("Example2", "1234");
 data.push("Get: " + hashMap.get("Example"));
+data.push("Get: " + hashMap.get("Example3"));
 data.push("Has: " + (hashMap.has("Example2") ? "true" : "false"));
+data.push("Has: " + (hashMap.has("Example3") ? "true" : "false"));
+data.push("Remove: " + (hashMap.remove("Example2") ? "true" : "false"));
+data.push("Remove: " + (hashMap.remove("Example3") ? "true" : "false"));
+
 
 data.push("Buckets:", hashMap.buckets);
 

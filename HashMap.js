@@ -42,25 +42,25 @@ export class HashMap {
             console.log("Rehash complete, capacity is now:",this.capacity);
         }
     }
-    set(key, value){
+    validateKey(key){
         if (typeof key !== "string") return;
         const index = this.hash(key);
-        //console.log("Index for:", key, "is:", index);
         if (index < 0 || index >= this.capacity) {
             throw new Error("Trying to access index out of bounds");
         }
         const bucket = this.buckets[index];
+        return bucket ?? null;
+    }
+    set(key, value){
+        const bucket = this.validateKey(key);
+        if (bucket === null) return;
         if (bucket.size === 0) this.size += 1; // if we are putting the first value into a bucket essentially
         bucket.append(key, value);
         this.check();
     }
     get(key){
-        if (typeof key !== "string") return;
-        const index = this.hash(key);
-        if (index < 0 || index >= this.capacity) {
-            throw new Error("Trying to access index out of bounds");
-        }
-        const bucket = this.buckets[index];
+        const bucket = this.validateKey(key);
+        if (bucket === null) return null;
         let node = bucket.head;
         if (bucket.size === 0) return null;
         while (node){
@@ -70,16 +70,31 @@ export class HashMap {
         return null;
     }
     has(key){
-        if (typeof key !== "string") return false;
-        const index = this.hash(key);
-        if (index < 0 || index >= this.capacity) {
-            throw new Error("Trying to access index out of bounds");
-        }
-        const bucket = this.buckets[index];
+        const bucket = this.validateKey(key);
+        if (bucket === null) return false;
         let node = bucket.head;
         if (bucket.size === 0) return false;
         while (node){
             if (node.key === key) return true;
+            node = node.nextNode;
+        }
+        return false;
+    }
+    remove(key){
+        const bucket = this.validateKey(key);
+        if (bucket === null) return false;
+        let node = bucket.head;
+        if (bucket.size === 0) return false;
+        let prevNode = null;
+        while (node){
+            if (node.key === key) {
+                const nextNode = node.nextNode;
+                if (!nextNode && bucket.pop()) return true; // if this is already the last node
+                const removedNode = bucket.removeAt(bucket.find(node.value));
+                if (!removedNode) return false; // if we didnt remove a node
+                return true;
+            };
+            prevNode = node;
             node = node.nextNode;
         }
         return false;
