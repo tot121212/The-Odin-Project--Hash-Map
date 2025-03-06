@@ -62,12 +62,26 @@ export class HashMap {
         }
         const bucket = this.buckets[index];
         let node = bucket.head;
-        if (bucket.size === 0) return;
-        // search all nodes in bucket for key
+        if (bucket.size === 0) return null;
         while (node){
             if (node.key === key) return node.value;
             node = node.nextNode;
         }
         return null;
+    }
+    has(key){
+        if (typeof key !== "string") return false;
+        const index = this.hash(key);
+        if (index < 0 || index >= this.capacity) {
+            throw new Error("Trying to access index out of bounds");
+        }
+        const bucket = this.buckets[index];
+        let node = bucket.head;
+        if (bucket.size === 0) return false;
+        while (node){
+            if (node.key === key) return true;
+            node = node.nextNode;
+        }
+        return false;
     }
 }

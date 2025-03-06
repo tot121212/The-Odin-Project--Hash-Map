@@ -1,5 +1,1337 @@
 [
   "Capacity: 128",
-  "Amt of Buckets: 73",
-  "Get: 123"
+  "Amt of Buckets: 68",
+  "Get: 123",
+  "Has: true",
+  "Buckets:",
+  [
+    {
+      "head": {
+        "key": "PMKhizKEVCr@",
+        "value": "!zHj6wN@1qk4",
+        "nextNode": {
+          "key": "all0JV@nPvfW",
+          "value": "77x#nuXNGNd6",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "all0JV@nPvfW",
+        "value": "77x#nuXNGNd6",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "J4VkXX!nKlVj",
+        "value": "mFW8eN0oeJzc",
+        "nextNode": {
+          "key": "c1JHt3qdDuXj",
+          "value": "tZPDnOePga56",
+          "nextNode": {
+            "key": "v4VdDTpOr$Rf",
+            "value": "zlWV5nInxNcT",
+            "nextNode": null
+          }
+        }
+      },
+      "tail": {
+        "key": "v4VdDTpOr$Rf",
+        "value": "zlWV5nInxNcT",
+        "nextNode": null
+      },
+      "size": 3
+    },
+    {
+      "head": {
+        "key": "7PPHC@zIek7V",
+        "value": "zGu313GmUch7",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "7PPHC@zIek7V",
+        "value": "zGu313GmUch7",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "!VlLPSv84OuD",
+        "value": "DhWmwqTksrdq",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "!VlLPSv84OuD",
+        "value": "DhWmwqTksrdq",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "KrzMAw3Z$LrX",
+        "value": "40nXruDQd#Rr",
+        "nextNode": {
+          "key": "pPlkpJ4BXxvT",
+          "value": "o7qftrSwPKaS",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "pPlkpJ4BXxvT",
+        "value": "o7qftrSwPKaS",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "ng!dXGzLF0S3",
+        "value": "sS%C7dpuUoq2",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "ng!dXGzLF0S3",
+        "value": "sS%C7dpuUoq2",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "DdBFP7qKsD$6",
+        "value": "Xt5s3NBeLCIo",
+        "nextNode": {
+          "key": "h@SIIsj9Woyb",
+          "value": "WGskZEXf#jim",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "h@SIIsj9Woyb",
+        "value": "WGskZEXf#jim",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "wYhkACdezYRT",
+        "value": "7JMR#N9QUB8x",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "wYhkACdezYRT",
+        "value": "7JMR#N9QUB8x",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "DsEFeJEJfYrO",
+        "value": "fhn!Lkz5@qab",
+        "nextNode": {
+          "key": "OvXrjac2zRWb",
+          "value": "2Zpk@rvh8jdA",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "OvXrjac2zRWb",
+        "value": "2Zpk@rvh8jdA",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "IAK!yR5HqvSa",
+        "value": "NRAXOQ$6EEmc",
+        "nextNode": {
+          "key": "KN4z@1$4Gw!T",
+          "value": "Yw4EKPJkRTDK",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "KN4z@1$4Gw!T",
+        "value": "Yw4EKPJkRTDK",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "DkPeN1sbQwZ6",
+        "value": "f2h#XGo3hgh$",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "DkPeN1sbQwZ6",
+        "value": "f2h#XGo3hgh$",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "d@dHrYBJ!Iy7",
+        "value": "nAp9ADSrrdPs",
+        "nextNode": {
+          "key": "Elmqli7VW6ZI",
+          "value": "OWcYRMB#LY%Y",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "Elmqli7VW6ZI",
+        "value": "OWcYRMB#LY%Y",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "VX$%wwZ6r1He",
+        "value": "8AW%!luu8Qnc",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "VX$%wwZ6r1He",
+        "value": "8AW%!luu8Qnc",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "gEZm3Wz1x%ZC",
+        "value": "9C6x9oQnOyMw",
+        "nextNode": {
+          "key": "AJs1Mr!15Ncp",
+          "value": "8hGd!U@7xJcx",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "AJs1Mr!15Ncp",
+        "value": "8hGd!U@7xJcx",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "6K2O%Poc6i54",
+        "value": "ckFu0Oj7gj$%",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "6K2O%Poc6i54",
+        "value": "ckFu0Oj7gj$%",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "8$@o7aOmC!Mq",
+        "value": "skqR5mNkoEx@",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "8$@o7aOmC!Mq",
+        "value": "skqR5mNkoEx@",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "eLwI4a93Cgo2",
+        "value": "N7BUkP%d5ET1",
+        "nextNode": {
+          "key": "@ZjY5%RjFg5j",
+          "value": "nAKae$t2qLlC",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "@ZjY5%RjFg5j",
+        "value": "nAKae$t2qLlC",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "vO1kYf$LiZvE",
+        "value": "nmUjmJ!mCad$",
+        "nextNode": {
+          "key": "Example2",
+          "value": "1234",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "Example2",
+        "value": "1234",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "$7IyabbFriyc",
+        "value": "pTjm4532uh!k",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "$7IyabbFriyc",
+        "value": "pTjm4532uh!k",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "yoOjvwdobrW5",
+        "value": "vVFd!ECdl3Vv",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "yoOjvwdobrW5",
+        "value": "vVFd!ECdl3Vv",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "Y$k8TIk9Ddwh",
+        "value": "D7g@HXgmBoqs",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "Y$k8TIk9Ddwh",
+        "value": "D7g@HXgmBoqs",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "%bTZJi9!Ga1z",
+        "value": "9eupItCv36oh",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "%bTZJi9!Ga1z",
+        "value": "9eupItCv36oh",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "J9kTSNKMOd$i",
+        "value": "0sslwi2FtF5i",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "J9kTSNKMOd$i",
+        "value": "0sslwi2FtF5i",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "RJRgGuotSiNJ",
+        "value": "GM2V4IM3Q#sk",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "RJRgGuotSiNJ",
+        "value": "GM2V4IM3Q#sk",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "HUanevgDTxOV",
+        "value": "f3jX%Lvre6sv",
+        "nextNode": {
+          "key": "phuPQXP!#RW0",
+          "value": "m0GsNoMJ2W!F",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "phuPQXP!#RW0",
+        "value": "m0GsNoMJ2W!F",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "9lu9u!HowPFZ",
+        "value": "XhkjHEbSuhQC",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "9lu9u!HowPFZ",
+        "value": "XhkjHEbSuhQC",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "QBMOyxWQG5S3",
+        "value": "ODYl14IiD@WW",
+        "nextNode": {
+          "key": "oYSCtUINzSSt",
+          "value": "j72D9jWU$#CD",
+          "nextNode": {
+            "key": "j2xkvkwPhJ2!",
+            "value": "B6kThGxsdR#w",
+            "nextNode": null
+          }
+        }
+      },
+      "tail": {
+        "key": "j2xkvkwPhJ2!",
+        "value": "B6kThGxsdR#w",
+        "nextNode": null
+      },
+      "size": 3
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "529ln7Q$$sS4",
+        "value": "nzvUQQ@g!v4D",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "529ln7Q$$sS4",
+        "value": "nzvUQQ@g!v4D",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "JQkGGxwBD2eV",
+        "value": "xH2zHOg0!Dqw",
+        "nextNode": {
+          "key": "#BRrX3lFZp$x",
+          "value": "3BLxINCD%PR3",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "#BRrX3lFZp$x",
+        "value": "3BLxINCD%PR3",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "oXXFXuKN#W2g",
+        "value": "nzDEyx@TnjA6",
+        "nextNode": {
+          "key": "%QzVVxrydTji",
+          "value": "oniYOxIOi8SE",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "%QzVVxrydTji",
+        "value": "oniYOxIOi8SE",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "ulgWli$kD1L5",
+        "value": "F8Yp6c2csXDN",
+        "nextNode": {
+          "key": "$Pq3ieWp$!5v",
+          "value": "ZSgaKy$dUs9K",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "$Pq3ieWp$!5v",
+        "value": "ZSgaKy$dUs9K",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "MyUsername",
+        "value": "Hello",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "MyUsername",
+        "value": "Hello",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "pHFWM3AtmiJ3",
+        "value": "ce5kwY1$A5p2",
+        "nextNode": {
+          "key": "G5sYQXI!z1YV",
+          "value": "kNHUJRhgOd2n",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "G5sYQXI!z1YV",
+        "value": "kNHUJRhgOd2n",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "7nCsZstP0fc9",
+        "value": "0yP7Z5d$33j7",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "7nCsZstP0fc9",
+        "value": "0yP7Z5d$33j7",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "Example",
+        "value": "123",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "Example",
+        "value": "123",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "6ZnDxsdIg$l@",
+        "value": "4l#R3QNEpZ2b",
+        "nextNode": {
+          "key": "F3iaX29b3nK3",
+          "value": "Fve5cD401H90",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "F3iaX29b3nK3",
+        "value": "Fve5cD401H90",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "$3LPnj#V5xqY",
+        "value": "BWd7NSampDHf",
+        "nextNode": {
+          "key": "#GtIhEuMnoki",
+          "value": "MhO!v0mPwrlC",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "#GtIhEuMnoki",
+        "value": "MhO!v0mPwrlC",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "#!71O8%l7V6b",
+        "value": "39oGsaA5SXC5",
+        "nextNode": {
+          "key": "QG7aYR6PKYzL",
+          "value": "aQ4SkAjiU1$S",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "QG7aYR6PKYzL",
+        "value": "aQ4SkAjiU1$S",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "ivMDrp5!YuZe",
+        "value": "8T7n!vYhg$A%",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "ivMDrp5!YuZe",
+        "value": "8T7n!vYhg$A%",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "@lIeA8Bqk#qa",
+        "value": "w5oFSSvI$OQl",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "@lIeA8Bqk#qa",
+        "value": "w5oFSSvI$OQl",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "5ab0rne%#BAE",
+        "value": "sHlh$Sl58NwT",
+        "nextNode": {
+          "key": "OM3@!sJ%mDcM",
+          "value": "NjXy7cZycpMt",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "OM3@!sJ%mDcM",
+        "value": "NjXy7cZycpMt",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "5goRRW%F8jtA",
+        "value": "Agnbn#i7nfss",
+        "nextNode": {
+          "key": "oA3H64$r5P5A",
+          "value": "KoCi6JWD8jNT",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "oA3H64$r5P5A",
+        "value": "KoCi6JWD8jNT",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "OrdaLt9R!8Qv",
+        "value": "6#FqFrDPCq76",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "OrdaLt9R!8Qv",
+        "value": "6#FqFrDPCq76",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "abhi7eo1Wy%O",
+        "value": "!GKNUtae55FG",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "abhi7eo1Wy%O",
+        "value": "!GKNUtae55FG",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "dFzrjvTr5Be5",
+        "value": "t1kqBFgPqFCs",
+        "nextNode": {
+          "key": "4zDhY#I6!rZi",
+          "value": "U9UJXVIv$eaV",
+          "nextNode": {
+            "key": "FmTYF4p@Bopz",
+            "value": "OakHaM7!N$6K",
+            "nextNode": null
+          }
+        }
+      },
+      "tail": {
+        "key": "FmTYF4p@Bopz",
+        "value": "OakHaM7!N$6K",
+        "nextNode": null
+      },
+      "size": 3
+    },
+    {
+      "head": {
+        "key": "z6BCko290NWS",
+        "value": "sJZDPw4#FWrQ",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "z6BCko290NWS",
+        "value": "sJZDPw4#FWrQ",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "09uh#DeD6odr",
+        "value": "KOn3btVcFpU$",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "09uh#DeD6odr",
+        "value": "KOn3btVcFpU$",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "2aAxLfOB2lCZ",
+        "value": "yqdWAp0kB9uT",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "2aAxLfOB2lCZ",
+        "value": "yqdWAp0kB9uT",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "0rXPcJ$JTl1w",
+        "value": "w1Bc2zBsPYYk",
+        "nextNode": {
+          "key": "dEO4unYXd9TF",
+          "value": "7rSCqVX@mo0N",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "dEO4unYXd9TF",
+        "value": "7rSCqVX@mo0N",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "nRkAamYNDAUC",
+        "value": "o42AXCjkar4H",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "nRkAamYNDAUC",
+        "value": "o42AXCjkar4H",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "fsr!Clhz%I%Q",
+        "value": "0vHlJd9WMQsw",
+        "nextNode": {
+          "key": "f@@@Z1xuvj5Z",
+          "value": "DZElgTzXmCLZ",
+          "nextNode": {
+            "key": "hfq!mvd8XiaL",
+            "value": "IATnz%%1@FNe",
+            "nextNode": {
+              "key": "XsaA0HCiv#JK",
+              "value": "fpJCLdA2fl#t",
+              "nextNode": null
+            }
+          }
+        }
+      },
+      "tail": {
+        "key": "XsaA0HCiv#JK",
+        "value": "fpJCLdA2fl#t",
+        "nextNode": null
+      },
+      "size": 4
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "KRHiBu16#ERY",
+        "value": "zB1WtR8#vs70",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "KRHiBu16#ERY",
+        "value": "zB1WtR8#vs70",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "uGJImmc8FBPx",
+        "value": "Y1!DT#oJhJBT",
+        "nextNode": {
+          "key": "KpYIlqYb%bdn",
+          "value": "4!6ae1wW#fC#",
+          "nextNode": {
+            "key": "iy@nBOUhlVxZ",
+            "value": "6XnFIfh9r0ei",
+            "nextNode": null
+          }
+        }
+      },
+      "tail": {
+        "key": "iy@nBOUhlVxZ",
+        "value": "6XnFIfh9r0ei",
+        "nextNode": null
+      },
+      "size": 3
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "eVV6pzWJgVyh",
+        "value": "7HttrAXATAvf",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "eVV6pzWJgVyh",
+        "value": "7HttrAXATAvf",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "0mSbllD#w1YA",
+        "value": "DwyJ9O6by0qu",
+        "nextNode": {
+          "key": "lDQs#o@W@knS",
+          "value": "l#AHgPvTg9xv",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "lDQs#o@W@knS",
+        "value": "l#AHgPvTg9xv",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "aI$pm8gihEU%",
+        "value": "g2TWwM3Z64kp",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "aI$pm8gihEU%",
+        "value": "g2TWwM3Z64kp",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "Pg!pd6#l#0DE",
+        "value": "OItqZaSFFxOB",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "Pg!pd6#l#0DE",
+        "value": "OItqZaSFFxOB",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "FO%c4p9RFVEi",
+        "value": "Z#D40c72Laj8",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "FO%c4p9RFVEi",
+        "value": "Z#D40c72Laj8",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "ikGKYILVonB4",
+        "value": "4G#wdn#fj0cl",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "ikGKYILVonB4",
+        "value": "4G#wdn#fj0cl",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "cxnBBjqgBqr0",
+        "value": "pU8M$rLRiU%W",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "cxnBBjqgBqr0",
+        "value": "pU8M$rLRiU%W",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "Ot%uyG7IvWHG",
+        "value": "XbuKxEr@i6Ut",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "Ot%uyG7IvWHG",
+        "value": "XbuKxEr@i6Ut",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "H%9vkAUOIQKp",
+        "value": "3r97#YrDC$@n",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "H%9vkAUOIQKp",
+        "value": "3r97#YrDC$@n",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "MeL4!sAzCquT",
+        "value": "rVbOhO0o4c4H",
+        "nextNode": {
+          "key": "4INC!5CTQAJC",
+          "value": "vRlQ4vWFH8aF",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "4INC!5CTQAJC",
+        "value": "vRlQ4vWFH8aF",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "zkFiHv#fBxGE",
+        "value": "8bU@D4qwuUwS",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "zkFiHv#fBxGE",
+        "value": "8bU@D4qwuUwS",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "ZRlvxT2xEPgr",
+        "value": "TpaS8tA1k5cd",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "ZRlvxT2xEPgr",
+        "value": "TpaS8tA1k5cd",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": {
+        "key": "UzJFm9pVrYXZ",
+        "value": "@k3d$!D$pT6q",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "UzJFm9pVrYXZ",
+        "value": "@k3d$!D$pT6q",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "KoxPs6vpbmLE",
+        "value": "#DlXYsl9B3HW",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "KoxPs6vpbmLE",
+        "value": "#DlXYsl9B3HW",
+        "nextNode": null
+      },
+      "size": 1
+    },
+    {
+      "head": {
+        "key": "RcUjAE7IgwRD",
+        "value": "ElrGGVrWNibo",
+        "nextNode": {
+          "key": "G3P7J!PHBI%z",
+          "value": "diMn!C@N6sus",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "G3P7J!PHBI%z",
+        "value": "diMn!C@N6sus",
+        "nextNode": null
+      },
+      "size": 2
+    },
+    {
+      "head": {
+        "key": "264IsRdcwjb7",
+        "value": "oMReE6JuDAm7",
+        "nextNode": null
+      },
+      "tail": {
+        "key": "264IsRdcwjb7",
+        "value": "oMReE6JuDAm7",
+        "nextNode": null
+      },
+      "size": 1
+    }
+  ]
 ]
