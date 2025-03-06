@@ -13,7 +13,7 @@ function getRandomString(length) {
     }
     return result;
 }
-for (let i = 0; i < 24; i++){
+for (let i = 0; i < 4; i++){
     hashMap.set(getRandomString(12), getRandomString(12));
 }
 
@@ -29,9 +29,20 @@ data.push("Has: " + (hashMap.has("Example2") ? "true" : "false"));
 data.push("Has: " + (hashMap.has("Example3") ? "true" : "false"));
 data.push("Remove: " + (hashMap.remove("Example2") ? "true" : "false"));
 data.push("Remove: " + (hashMap.remove("Example3") ? "true" : "false"));
-
-
+data.push("Length: " + hashMap.length());
 data.push("Buckets:", hashMap.buckets);
+hashMap.clear();
+data.push("Cleared");
+data.push("Length: " + hashMap.length());
+hashMap.set("Example", "123");
+hashMap.set("Example2", "1234");
+data.push("Keys:", hashMap.keys());
+data.push("Values:", hashMap.values());
+data.push("Entries:", hashMap.entries());
+data.push("Length: " + hashMap.length());
+data.push("Buckets:", hashMap.buckets);
+
+// I hate unit tests so much that i'd rather make this monstrosity
 
 fs.writeFile('output.txt', JSON.stringify(data, null, 2), (err) => {
     if (err) {

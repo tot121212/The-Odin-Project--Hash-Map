@@ -1,7 +1,7 @@
 import { LinkedList } from "./LinkedList.js";
 
 export class HashMap {
-    constructor(loadFactor = 0.75, capacity = 16) {
+    constructor(loadFactor = 0.75, capacity = 4) {
         this.loadFactor = loadFactor;
         this.capacity = capacity;
         this.size = 0;
@@ -98,5 +98,48 @@ export class HashMap {
             node = node.nextNode;
         }
         return false;
+    }
+    length(){
+        return this.size;
+    }
+    clear(){
+        this.buckets = null;
+        return this.rehash();
+    }
+    keys(){
+        let keys = [];
+        for (const bucket of this.buckets){
+            if (!bucket.head) continue;
+            let node = bucket.head;
+            while (node){
+                if (node.key) keys.push(node.key);
+                node = node.nextNode;
+            }
+        }
+        return keys;
+    }
+    values(){
+        let values = [];
+        for (const bucket of this.buckets){
+            if (!bucket.head) continue;
+            let node = bucket.head;
+            while (node){
+                if (node.value) values.push(node.value);
+                node = node.nextNode;
+            }
+        }
+        return values;
+    }
+    entries(){
+        let entries = [];
+        for (const bucket of this.buckets){
+            if (!bucket.head) continue;
+            let node = bucket.head;
+            while (node){
+                if (node.key || node.value) entries.push([node.key, node.value]);
+                node = node.nextNode;
+            }
+        }
+        return entries;
     }
 }

@@ -1,18 +1,31 @@
 [
-  "Capacity: 32",
-  "Amt of Buckets: 17",
+  "Capacity: 8",
+  "Amt of Buckets: 4",
   "Get: 123",
   "Get: null",
   "Has: true",
   "Has: false",
   "Remove: true",
   "Remove: false",
+  "Length: 4",
   "Buckets:",
   [
     {
-      "head": null,
-      "tail": null,
-      "size": 0
+      "head": {
+        "key": "fDTwSFWKPBaW",
+        "value": "2sp#785mhWfm",
+        "nextNode": {
+          "key": "Ic0jy5viYf2r",
+          "value": "MOZFOY9j1pjX",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "Ic0jy5viYf2r",
+        "value": "MOZFOY9j1pjX",
+        "nextNode": null
+      },
+      "size": 2
     },
     {
       "head": null,
@@ -21,47 +34,40 @@
     },
     {
       "head": {
-        "key": "IGW1eCVXl0PV",
-        "value": "GtWdOnWTEGmH",
-        "nextNode": {
-          "key": "aN0SwpC@fv8$",
-          "value": "RetayU@5d4UQ",
-          "nextNode": {
-            "key": "MyUsername",
-            "value": "Hello",
-            "nextNode": null
-          }
-        }
-      },
-      "tail": {
         "key": "MyUsername",
         "value": "Hello",
+        "nextNode": {
+          "key": "Example",
+          "value": "123",
+          "nextNode": null
+        }
+      },
+      "tail": {
+        "key": "Example",
+        "value": "123",
         "nextNode": null
       },
-      "size": 3
+      "size": 2
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
+    },
+    {
+      "head": null,
+      "tail": null,
+      "size": 0
     },
     {
       "head": {
-        "key": "%6r1GGm8ye9U",
-        "value": "uQXGE5EX4j!3",
+        "key": "rSE0Y1j0vpQz",
+        "value": "$xhvWWHESVKS",
         "nextNode": null
       },
       "tail": {
-        "key": "%6r1GGm8ye9U",
-        "value": "uQXGE5EX4j!3",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
-      "head": {
-        "key": "n#wFnoTNJPMl",
-        "value": "RK6DEqL2OkBc",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "n#wFnoTNJPMl",
-        "value": "RK6DEqL2OkBc",
+        "key": "rSE0Y1j0vpQz",
+        "value": "$xhvWWHESVKS",
         "nextNode": null
       },
       "size": 1
@@ -73,39 +79,53 @@
     },
     {
       "head": {
-        "key": "5y!uDXk1kTny",
-        "value": "PdCi2bOf%XZc",
+        "key": "UIGyUp#1qngb",
+        "value": "T7jx5odAX35r",
         "nextNode": null
       },
       "tail": {
-        "key": "5y!uDXk1kTny",
-        "value": "PdCi2bOf%XZc",
+        "key": "UIGyUp#1qngb",
+        "value": "T7jx5odAX35r",
         "nextNode": null
       },
       "size": 1
-    },
+    }
+  ],
+  "Cleared",
+  "Length: 0",
+  "Keys:",
+  [
+    "Example2",
+    "Example"
+  ],
+  "Values:",
+  [
+    "1234",
+    "123"
+  ],
+  "Entries:",
+  [
+    [
+      "Example2",
+      "1234"
+    ],
+    [
+      "Example",
+      "123"
+    ]
+  ],
+  "Length: 2",
+  "Buckets:",
+  [
     {
       "head": {
-        "key": "37L6Z4nSu34P",
-        "value": "LGG0f1NII7gF",
+        "key": "Example2",
+        "value": "1234",
         "nextNode": null
       },
       "tail": {
-        "key": "37L6Z4nSu34P",
-        "value": "LGG0f1NII7gF",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
-      "head": {
-        "key": "3NT1NIYb6wIT",
-        "value": "RtSwioHenoT2",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "3NT1NIYb6wIT",
-        "value": "RtSwioHenoT2",
+        "key": "Example2",
+        "value": "1234",
         "nextNode": null
       },
       "size": 1
@@ -129,46 +149,6 @@
       "size": 1
     },
     {
-      "head": {
-        "key": "rr0iYUkrcZQi",
-        "value": "gfrc$gQy#F#R",
-        "nextNode": {
-          "key": "2H3QJvhQ$0aW",
-          "value": "daA45OxoMqUS",
-          "nextNode": null
-        }
-      },
-      "tail": {
-        "key": "2H3QJvhQ$0aW",
-        "value": "daA45OxoMqUS",
-        "nextNode": null
-      },
-      "size": 2
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": {
-        "key": "CEi4eY#OLQOk",
-        "value": "sfc2tCp5mCZF",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "CEi4eY#OLQOk",
-        "value": "sfc2tCp5mCZF",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
       "head": null,
       "tail": null,
       "size": 0
@@ -189,161 +169,9 @@
       "size": 0
     },
     {
-      "head": {
-        "key": "#hEkutA#nczl",
-        "value": "Db5l9QqXQiMs",
-        "nextNode": {
-          "key": "2UYYe8$i@HXH",
-          "value": "1V4!q$4NhA41",
-          "nextNode": null
-        }
-      },
-      "tail": {
-        "key": "2UYYe8$i@HXH",
-        "value": "1V4!q$4NhA41",
-        "nextNode": null
-      },
-      "size": 2
-    },
-    {
-      "head": {
-        "key": "yRk23CtnU%XR",
-        "value": "vc0wCY3vndmz",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "yRk23CtnU%XR",
-        "value": "vc0wCY3vndmz",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
       "head": null,
       "tail": null,
       "size": 0
-    },
-    {
-      "head": {
-        "key": "rQl4E4Nqq6uM",
-        "value": "o!#1!ha9MIGH",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "rQl4E4Nqq6uM",
-        "value": "o!#1!ha9MIGH",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": {
-        "key": "vTAZ8hc1BeDe",
-        "value": "30EOKzvjaRaL",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "vTAZ8hc1BeDe",
-        "value": "30EOKzvjaRaL",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
-      "head": {
-        "key": "B5FYubBupVB0",
-        "value": "Izr6Njytat0c",
-        "nextNode": {
-          "key": "lbd5V4SVEk$P",
-          "value": "$OwCYUbS80GU",
-          "nextNode": null
-        }
-      },
-      "tail": {
-        "key": "lbd5V4SVEk$P",
-        "value": "$OwCYUbS80GU",
-        "nextNode": null
-      },
-      "size": 2
-    },
-    {
-      "head": {
-        "key": "pGIZl8z77QDt",
-        "value": "#F#$j@NxgP!B",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "pGIZl8z77QDt",
-        "value": "#F#$j@NxgP!B",
-        "nextNode": null
-      },
-      "size": 1
-    },
-    {
-      "head": {
-        "key": "f!#t%j2Az4nP",
-        "value": "xRmdWtGV0qqf",
-        "nextNode": {
-          "key": "uiat6JIIhHD%",
-          "value": "Ywp3RoNa#XoI",
-          "nextNode": {
-            "key": "noA13jbT49X5",
-            "value": "ZKH7WWdFR@WF",
-            "nextNode": null
-          }
-        }
-      },
-      "tail": {
-        "key": "noA13jbT49X5",
-        "value": "ZKH7WWdFR@WF",
-        "nextNode": null
-      },
-      "size": 3
-    },
-    {
-      "head": {
-        "key": "JC!s@fjecd8H",
-        "value": "yJ5qDtFtqQz$",
-        "nextNode": {
-          "key": "aC8hS8RNHfht",
-          "value": "JH33@zxUBZF!",
-          "nextNode": null
-        }
-      },
-      "tail": {
-        "key": "aC8hS8RNHfht",
-        "value": "JH33@zxUBZF!",
-        "nextNode": null
-      },
-      "size": 2
-    },
-    {
-      "head": null,
-      "tail": null,
-      "size": 0
-    },
-    {
-      "head": {
-        "key": "p%kF9UNfUbJX",
-        "value": "6Az$hIz#XLLN",
-        "nextNode": null
-      },
-      "tail": {
-        "key": "p%kF9UNfUbJX",
-        "value": "6Az$hIz#XLLN",
-        "nextNode": null
-      },
-      "size": 1
     }
   ]
 ]
