@@ -65,7 +65,7 @@ export class HashMap {
         if (bucket.size === 0) return;
         // search all nodes in bucket for key
         while (node){
-            if (node[key] && node[key] === key) return node.value;
+            if (node.key === key) return node.value;
             node = node.nextNode;
         }
         return null;

@@ -18,11 +18,11 @@ for (let i = 0; i < 100; i++){
 }
 
 const data = [];
-data.push("Capacity:", hashMap.capacity);
-data.push("Amt of Buckets:", hashMap.size);
-data.push("Buckets:", hashMap.buckets);
+data.push("Capacity: " + hashMap.capacity);
+data.push("Amt of Buckets: " + hashMap.size);
+//data.push("Buckets:", hashMap.buckets);
 hashMap.set("Example", "123");
-data.push("Get:", hashMap.get("Example"));
+data.push("Get: " + hashMap.get("Example"));
 
 fs.writeFile('output.txt', JSON.stringify(data, null, 2), (err) => {
     if (err) {
